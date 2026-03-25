@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npx create-expo-app@latest . --template default --yes)",
+      "Read(//s/P/**)",
+      "Bash(npx create-expo-app@latest SlimmyApp --template default --yes)",
+      "Bash(cp -r \"s:/P/SlimmyApp/\"* \"s:/P/Slimmy/\")",
+      "Bash(cp \"s:/P/SlimmyApp/.gitignore\" \"s:/P/Slimmy/\")",
+      "Bash(cp \"s:/P/SlimmyApp/package.json\" \"s:/P/Slimmy/\")",
+      "Bash(cp \"s:/P/SlimmyApp/tsconfig.json\" \"s:/P/Slimmy/\")",
+      "Bash(cp \"s:/P/SlimmyApp/package-lock.json\" \"s:/P/Slimmy/\")",
+      "Bash(npx expo install @react-native-async-storage/async-storage react-native-chart-kit react-native-svg expo-haptics)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npx expo export --platform web)",
+      "Bash(grep -r \"from ''@/lib/storage''\" \"s:/P/Slimmy/hooks/\")",
+      "Bash(npm install react-native-health-connect)",
+      "Bash(npx expo prebuild --platform android)",
+      "Bash(ls \"s:/P/Slimmy\"/*.js \"s:/P/Slimmy\"/*.json)",
+      "Bash(npx expo prebuild --platform android --clean)",
+      "Bash(xargs grep -l \"agp\\\\|android\")",
+      "Read(//c/Users/jsonu/.gradle/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\jsonu\\.gradle"
+    ]
+  }
+}

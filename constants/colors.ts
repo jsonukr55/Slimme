@@ -1,0 +1,25 @@
+export const Colors = {
+  primary: '#4CAF50',
+  primaryLight: '#81C784',
+  primaryDark: '#388E3C',
+  accent: '#FF9800',
+  accentLight: '#FFB74D',
+  background: '#F5F7FA',
+  surface: '#FFFFFF',
+  text: '#1A1A2E',
+  textSecondary: '#6B7280',
+  textLight: '#9CA3AF',
+  border: '#E5E7EB',
+  error: '#EF4444',
+  success: '#10B981',
+  warning: '#F59E0B',
+  // Macro colors
+  protein: '#3B82F6',
+  carbs: '#F59E0B',
+  fat: '#EF4444',
+  fiber: '#8B5CF6',
+  calories: '#4CAF50',
+  // Tab bar
+  tabActive: '#4CAF50',
+  tabInactive: '#9CA3AF',
+};
